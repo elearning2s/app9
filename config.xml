@@ -1,19 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns = "http://www.w3.org/ns/widgets"
-    xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.app9.elearning"
-    version   = "1.0.0"
-	access origin="*" subdomains="true"
-    log level="DEBUG">
-
-<name>app9</name>
-
-<description>
-A  test  Build application.
-</description>
-
-<author href="https://example.com" email="you@example.com">
-Your Name
-</author>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.app9.elearning"
+	version 	= "1.1">
+	<name>App 9 elearning</name>
+	<description>
+		qesto è un test app 9
+	</description>
+	<author href="http://teste.com"
+		email="teste@teste.com">
+		Pinco Pallino
+	</author>
+	<gap:platforms>
+		<gap:platform name="android" minVersion="2.1" />
+	</gap:platforms>
+	<icon src="icon.png" gap:role="default" />
+	<access origin="*" subdomains="true" />
+	<preference name="permissions" value="none" />
+	
+	<!-- sample preference specification -->
+	<!-- <preference name="autorotate" value="false" readonly="true"/> -->
 </widget>
+
