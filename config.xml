@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.app9.elearning"
+    version   = "1.0.0"
+	access origin="*" subdomains="true"
+    log level="DEBUG">
+
+<name>app9</name>
+
+<description>
+A  test  Build application.
+</description>
+
+<author href="https://example.com" email="you@example.com">
+Your Name
+</author>
+
+</widget>
